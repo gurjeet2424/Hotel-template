@@ -1,0 +1,128 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+#navtop{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    color:white;
+}
+#logo{
+    font-size: 33px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+#listitems{
+    font-size: 17px;
+    padding-right: 30px;
+}
+.social-icons{
+    font-size: 17px;
+    padding-right: 30px;
+    cursor:pointer;
+}
+#navbutton{
+    height:55px;
+    width:150px;
+    background-color: grey;
+    color:white;
+    border:none;
+    margin-right:20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.first-row{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+#imageone{
+    width:200%;
+    height:120vh;
+    padding:30px;
+}
+#imagetwo{
+    height:80vh;
+    margin-top:80px;
+}
+.buttontwo, .buttonthree, .buttonfour{
+    margin-top: 200px;
+    color:white;
+}
+.buttontwo p, .buttonthree p, .buttonfour p{
+    font-size: 25px;
+}
+.buttontwo button, .buttonthree button, .buttonfour button{
+    height:60px;
+    width:150px;
+    border:0px;
+    background-color: grey;
+    color:white;
+}
+#imagethree, #imagefour{
+    height:80vh;
+    margin-top:100px;
+}
+.desc{
+    margin-top:150px;
+    color:white;
+}
+.desc p{
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+.lastsec p{
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 700;
+    color:white;
+}
+.lastsec button{
+    height:60px;
+    width:150px;
+    border:0px;
+    background-color:white;
+    color:grey;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.footer{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+#footerhead{
+    color:white;
+    padding-left:20px;
+}
+.footer-icons{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top:20px;
+    cursor: pointer;
+    color:white;
+}
+#footeranchor a{
+    font-size: 15px;
+    color: white;
+}
+@media screen and (max-width:414px){
+    #imageone{
+        width:100%;
+        height:40vh;
+        padding:20px;
+    }
+    #imagetwo, #imagethree, #imagefour{
+        width:100%;
+        height:40vh;
+        padding:20px;
+        margin-top: 30px;
+    }  
+    .buttontwo, .buttonthree, .buttonfour{
+        margin-top: 50px;
+    } 
+
+}
